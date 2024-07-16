@@ -1,0 +1,66 @@
+{
+  "interests": [
+    {
+      "label": "Python",
+      "image": {
+        "src": "../../images/python-logo.png",
+        "alt": "Python"
+      }
+    },
+    {
+      "label": "Java 17",
+      "image": {
+        "src": "../../images/java-logo.png",
+        "alt": "Java"
+      }
+    },
+    {
+      "label": "Spring",
+      "image": {
+        "src": "../../images/spring-logo.png",
+        "alt": "Spring"
+      }
+    },
+
+    {
+      "label": "Kubernetes",
+      "image": {
+        "src": "../../images/kubernetes-logo.png",
+        "alt": "Kubernetes"
+      }
+    },
+    {
+      "label": "AWS",
+      "image": {
+        "src": "../../images/aws-logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "PyTorch",
+      "image": {
+        "src": "../../images/pytorch-logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "React",
+      "image": {
+        "src": "../../images/react-logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "TypeScript",
+      "image": {
+        "src": "../../images/typescript-logo.png",
+        "alt": ""
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}

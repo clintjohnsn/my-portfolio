@@ -1,0 +1,13 @@
+{
+  "name": "Clint Johnson",
+  "email": "clintjohnsn@gmail.com",
+  "description": "My inbox is always open, whether you have a question or just want to say hi",
+  "image": {
+    "src": "../../images/me1.jpg",
+    "alt": "My Contact Photo"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github", "Mail", "Instagram"],
+    "showIcons": true
+  }
+}

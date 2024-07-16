@@ -1,0 +1,46 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
+    "title": "Clint Johnson's Portfolio",
+    "titleTemplate": "%s · Portfolio Minimal",
+    "description": "My online portfolio comprising of my information, projects, blogs and more.",
+    "author": "Clint Johnson",
+    "avatar": "../content/images/me1.jpg",
+    "bio": "I am a software engineer with over 5 years of experience leading dynamic, cross-functional teams in developing enterprise-grade cloud-native solutions. I am passionate about building things that make a difference.",
+    "social": {
+      "behance": "https://behance.com",
+      "github": "https://github.com/clintjohnsn",
+      "medium": "https://medium.com/@clint8875",
+      "linkedin": "https://www.linkedin.com/in/cjohnsn/",
+      "mail": "mailto:clintjohnsn@gmail.com",
+      "instagram": "https://www.instagram.com/supafreshink/"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Experience", "url": "/#experience" },
+        { "label": "Education", "url": "/#education" },
+        { "label": "Contact", "url": "/#contact" },
+        { "label": "Blog", "url": "/blog" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/resume.pdf"
+      },
+      "footer": [
+        { "label": "Privacy", "url": "/privacy" },
+        { "label": "Imprint", "url": "/imprint" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": false,
+      "useCookieBar": false
+    }
+  }
+}

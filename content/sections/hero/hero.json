@@ -1,0 +1,22 @@
+{
+  "intro": "Hey",
+  "heroPhoto": {
+    "src": "../../images/me1.jpg",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm Clint.",
+  "subtitle": {
+    "prefix": "I build distributed systems that ",
+    "highlight": "scale",
+    "suffix": "."
+  },
+  "description": "Software engineer with over 5 years of experience leading dynamic, cross-functional teams in developing enterprise-grade cloud-native solutions.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github", "Mail"],
+    "showIcons": true
+  }
+}
