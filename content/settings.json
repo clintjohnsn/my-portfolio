@@ -20,14 +20,14 @@
     "logo": { "text": "" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
         { "label": "Experience", "url": "/#experience" },
         { "label": "Education", "url": "/#education" },
+        { "label": "About", "url": "/#about" },
         {
           "label": "Digital Garden",
-          "url": "https://github.com/clintjohnsn/ds-algo"
+          "url": "https://ai-digital-garden.netlify.app/"
         },
-        { "label": "Contact", "url": "/#contact" }
+        { "label": "Contact", "url": "/contact" }
       ],
       "ctaButton": {
         "openNewTab": true,

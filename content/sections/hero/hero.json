@@ -1,5 +1,5 @@
 {
-  "intro": "Hey",
+  "intro": "Hi there!",
   "heroPhoto": {
     "src": "../../images/me1.jpg",
     "alt": "My Photo"
@@ -14,7 +14,7 @@
     "highlight": "scale",
     "suffix": "."
   },
-  "description": "Software engineer with over 5 years of experience leading dynamic, cross-functional teams in developing enterprise-grade cloud-native solutions.",
+  "description": "5+ years of experience leading cross-functional teams in developing enterprise-grade cloud-native microservices.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],
     "showIcons": true

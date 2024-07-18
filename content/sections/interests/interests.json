@@ -8,6 +8,13 @@
       }
     },
     {
+      "label": "PyTorch",
+      "image": {
+        "src": "../../images/pytorch-logo.png",
+        "alt": ""
+      }
+    },
+    {
       "label": "Java 17",
       "image": {
         "src": "../../images/java-logo.png",
@@ -37,23 +44,16 @@
       }
     },
     {
-      "label": "PyTorch",
+      "label": "Docker",
       "image": {
-        "src": "../../images/pytorch-logo.png",
+        "src": "../../images/docker-logo.png",
         "alt": ""
       }
     },
     {
-      "label": "React",
+      "label": "JavaScript",
       "image": {
-        "src": "../../images/react-logo.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "TypeScript",
-      "image": {
-        "src": "../../images/typescript-logo.png",
+        "src": "../../images/js.png",
         "alt": ""
       }
     }
