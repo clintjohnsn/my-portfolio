@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 // import { GatsbyImage } from "gatsby-plugin-image";
 import { Section, Animation } from "gatsby-theme-portfolio-minimal";
 
-import { useInView } from "react-intersection-observer";
-
 export default function ExperienceSection(props) {
   return (
     <Animation type="fadeUp">
