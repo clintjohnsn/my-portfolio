@@ -2,12 +2,12 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🧑‍💻 Data Structures and Algorithms",
+      "title": "Leetcode solutions in Python",
+      "description": "Regularly updated solutions to Leetcode problems in Python. Well-documented and easy to understand with time-space complexity analysis.",
+      "tags": ["Python", "Data Structures", "Algorithms"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "src": "../../images/tree.jpg",
         "alt": "Quick Setup"
       },
       "links": [

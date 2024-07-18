@@ -9,7 +9,6 @@
     "avatar": "../content/images/me1.jpg",
     "bio": "I am a software engineer with over 5 years of experience leading dynamic, cross-functional teams in developing enterprise-grade cloud-native solutions. I am passionate about building things that make a difference.",
     "social": {
-      "behance": "https://behance.com",
       "github": "https://github.com/clintjohnsn",
       "medium": "https://medium.com/@clint8875",
       "linkedin": "https://www.linkedin.com/in/cjohnsn/",
@@ -24,13 +23,16 @@
         { "label": "About", "url": "/#about" },
         { "label": "Experience", "url": "/#experience" },
         { "label": "Education", "url": "/#education" },
-        { "label": "Contact", "url": "/#contact" },
-        { "label": "Blog", "url": "/blog" }
+        {
+          "label": "Digital Garden",
+          "url": "https://github.com/clintjohnsn/ds-algo"
+        },
+        { "label": "Contact", "url": "/#contact" }
       ],
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": "/clint_johnson_resume.pdf"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
