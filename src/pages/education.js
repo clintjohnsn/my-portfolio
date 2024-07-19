@@ -11,8 +11,7 @@ export default function EducationSection(props) {
           Intelligence
         </h4>
         <p>
-          📍<strong>The University of Manchester</strong>, United Kingdom |
-          📅09/2023-09/2024
+          📍<strong>The University of Manchester</strong> | 📅09/2023-09/2024
         </p>
         <p>
           <i>
@@ -25,7 +24,7 @@ export default function EducationSection(props) {
           Mathematics
         </h4>
         <p>
-          📍<strong>Shiv Nadar University</strong>, India | 📅05/2015-05/2019
+          📍<strong>Shiv Nadar University</strong> | 📅05/2015-05/2019
         </p>
         <i>💪 Data Structures, Algorithms, Databases, OOPs</i>
       </Section>

@@ -25,7 +25,7 @@
         { "label": "About", "url": "/#about" },
         {
           "label": "Digital Garden",
-          "url": "https://ai-digital-garden.netlify.app/"
+          "url": "https://digital-garden.clintjohnson.live/"
         },
         { "label": "Contact", "url": "/contact" }
       ],

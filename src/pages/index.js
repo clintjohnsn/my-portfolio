@@ -20,10 +20,10 @@ export default function IndexPage() {
       <Seo title="Clint Johnson's Online Portfolio" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <InterestsSection sectionId="skills" heading="I build with" />
-        <ExperienceSection sectionId="experience" heading="Experience" />
-        <EducationSection sectionId="education" heading="Education" />
-        <AboutSection sectionId="about" heading="About Me" />
+        <InterestsSection sectionId="skills" heading="🔨 I build with" />
+        <ExperienceSection sectionId="experience" heading="💼 Experience" />
+        <EducationSection sectionId="education" heading="🎓 Education" />
+        <AboutSection sectionId="about" heading="🧑‍💻About Me" />
         {/* <ProjectsSection sectionId="projects" heading="Projects" /> */}
         {/* <ContactSection sectionId="contact" heading="Contact" /> */}
         {/* <ArticlesSection

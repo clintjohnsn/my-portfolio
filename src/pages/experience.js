@@ -8,7 +8,7 @@ export default function ExperienceSection(props) {
       <Section anchor={props.sectionId} heading={props.heading}>
         <h4>Software development Engineer III (Tech Lead)</h4>
         <p>
-          💼 ConvergeProsperity @ Deloitte | 📍Bangalore | 📅 11/2020-08/2023
+          📍<strong>ConvergeProsperity @ Deloitte</strong> | 📅 11/2020-08/2023
         </p>
         <p>
           <li>Led a 4-member team in delivering key banking components</li>
@@ -22,11 +22,13 @@ export default function ExperienceSection(props) {
           <li>Enhanced security and observability of microservices</li>
         </p>
         <p>
-          <i>🔨 Kubernetes, AWS, Spring, Java, Python, Kafka, Datadog, Agile</i>
+          <i>✨ Kubernetes, AWS, Spring, Java, Python, Kafka, Datadog, Agile</i>
         </p>
 
         <h4>Software Engineer</h4>
-        <p>💼 Dell Technologies | 📍Bangalore | 📅 01/2019-10/2020</p>
+        <p>
+          📍<strong>Dell Technologies</strong> | 📅 01/2019-10/2020
+        </p>
         <li>
           Created an automation for B2B purchase order monitoring and
           reconciliation
@@ -40,14 +42,13 @@ export default function ExperienceSection(props) {
           documentations
         </li>
         <p>
-          <i>🔨 Docker, PCF, Spring, Java, Jenkins, TDD</i>
+          <i>✨ Docker, PCF, Spring, Java, Jenkins, TDD</i>
         </p>
 
-        <h2>Volunteering</h2>
+        <h2>🫂 Volunteering</h2>
         <h4>Python Tutor</h4>
-        <p>💼 Anumana Code Academy | 📍Manchester | 📅 11/2023-05/2024</p>
         <p>
-          <i>💪 Mentorship</i>
+          📍<strong>Anumana Code Academy</strong> | 📅 11/2023-05/2024
         </p>
       </Section>
     </Animation>
