@@ -1,56 +1,92 @@
-import React, { useState, useEffect } from "react";
-// import { GatsbyImage } from "gatsby-plugin-image";
+import React from "react";
 import { Section, Animation } from "gatsby-theme-portfolio-minimal";
 
-export default function ExperienceSection(props) {
+const ExperienceSection = (props) => {
+  const experiences = [
+    {
+      date: "2020 - 2023",
+      company: "Deloitte",
+      position: "SDE III (Tech Lead)",
+      description: [
+        "Led a 4-member team in delivering key banking components like onboarding, payments and servicing",
+        "Designed solution architectures in collaboration with product managers and vendors based on requirements",
+        "Developed components to enhance security and observability of microservices",
+        "Performed effort estimation, planning and supported agile ceremonies",
+      ],
+    },
+    {
+      date: "2019 - 2020",
+      company: "Dell Technologies",
+      position: "Software Engineer",
+      description: [
+        "Created an automation for B2B purchase order monitoring and reconciliation",
+        "Developed and maintained Spring microservices for internal mobile applications",
+        "Wrote test suites, performed code reviews, produced technical documentations",
+      ],
+    },
+  ];
+
   return (
     <Animation type="fadeUp">
       <Section anchor={props.sectionId} heading={props.heading}>
-        <h4>Software development Engineer III (Tech Lead)</h4>
-        <p>
-          📍<strong>ConvergeProsperity @ Deloitte</strong> | 📅 11/2020-08/2023
-        </p>
-        <p>
-          <li>Led a 4-member team in delivering key banking components</li>
-          <li>
-            Designed solution architectures using various modeling techniques
-          </li>
-          <li>
-            Collaborated with product teams on requirements, planning and
-            estimation
-          </li>
-          <li>Enhanced security and observability of microservices</li>
-        </p>
-        <p>
-          <i>✨ Kubernetes, AWS, Spring, Java, Python, Kafka, Datadog, Agile</i>
-        </p>
-
-        <h4>Software Engineer</h4>
-        <p>
-          📍<strong>Dell Technologies</strong> | 📅 01/2019-10/2020
-        </p>
-        <li>
-          Created an automation for B2B purchase order monitoring and
-          reconciliation
-        </li>
-        <li>
-          Developed and maintained microservices for internal mobile
-          applications
-        </li>
-        <li>
-          Wrote test suites, performed code reviews, produced technical
-          documentations
-        </li>
-        <p>
-          <i>✨ Docker, PCF, Spring, Java, Jenkins, TDD</i>
-        </p>
-
-        <h2>🫂 Volunteering</h2>
-        <h4>Python Tutor</h4>
-        <p>
-          📍<strong>Anumana Code Academy</strong> | 📅 11/2023-05/2024
-        </p>
+        <div className="experience-section">
+          {experiences.map((exp, index) => (
+            <div key={index} className="experience-item">
+              <div className="experience-date">{exp.date}</div>
+              <div className="experience-details">
+                <h3 className="company-name">{exp.company}</h3>
+                <p className="position">{exp.position}</p>
+                <ul className="description-list">
+                  {exp.description.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+          <style jsx>{`
+            .experience-section {
+              max-width: 800px;
+              margin: 0 0;
+              padding: 0px;
+            }
+            .experience-item {
+              display: flex;
+              margin-bottom: 30px;
+            }
+            .experience-date {
+              flex: 0 0 150px;
+              font-weight: bold;
+              padding-right: 20px;
+            }
+            .experience-details {
+              flex: 1;
+            }
+            .company-name {
+              font-weight: bold;
+              margin: 0 0 5px 0;
+            }
+            .position {
+              font-style: italic;
+              margin: 0 0 10px 0;
+            }
+            .description-list {
+              margin: 0;
+              padding-left: 20px;
+            }
+            @media (max-width: 600px) {
+              .experience-item {
+                flex-direction: column;
+              }
+              .experience-date {
+                margin-bottom: 10px;
+              }
+            }
+          `}</style>
+        </div>
       </Section>
     </Animation>
   );
-}
+};
+
+export default ExperienceSection;
