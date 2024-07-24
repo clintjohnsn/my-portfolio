@@ -9,7 +9,7 @@ const EducationSection = (props) => {
       course:
         "MSc Advanced Computer Science, Specialization in Artificial Intelligence",
       description:
-        "Machine Learning, Deep Learning, Reinforcement Learning, Natural Language Processing, System Governance",
+        "Machine Learning | Deep Learning | Reinforcement Learning | Natural Language Processing | System Governance",
     },
     {
       date: "2015 - 2019",
@@ -17,7 +17,7 @@ const EducationSection = (props) => {
       course:
         "Bachelor of Technology, Computer Science and Engineering, Minor in Mathematics",
       description:
-        "Data Structures, Algorithms, Sofware Engineering, Linear Algebra, Probability and Statistics",
+        "Data Structures | Algorithms | Sofware Engineering | Linear Algebra | Probability and Statistics",
     },
   ];
 
@@ -31,7 +31,7 @@ const EducationSection = (props) => {
               <div className="education-details">
                 <h3 className="university-name">{exp.university}</h3>
                 <p className="course">{exp.course}</p>
-                <p className="description-list">{exp.description}</p>
+                <p className="course-description">{exp.description}</p>
               </div>
             </div>
           ))}
@@ -61,9 +61,9 @@ const EducationSection = (props) => {
               font-style: italic;
               margin: 0 0 10px 0;
             }
-            .description-list {
+            .course-description {
               margin: 0;
-              padding-left: 20px;
+              padding-left: 0px;
             }
             @media (max-width: 600px) {
               .education-item {

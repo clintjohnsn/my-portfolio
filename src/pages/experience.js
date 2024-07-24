@@ -6,7 +6,7 @@ const ExperienceSection = (props) => {
     {
       date: "2020 - 2023",
       company: "Deloitte",
-      position: "SDE III (Tech Lead)",
+      position: "Software Engineer III (Tech Lead)",
       description: [
         "Led a 4-member team in delivering key banking components like onboarding, payments and servicing",
         "Designed solution architectures in collaboration with product managers and vendors based on requirements",
