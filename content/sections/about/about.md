@@ -5,7 +5,7 @@ imageAlt: "My photo"
 
 > “_If you aren’t sure which way to do something, do it both ways and see which works better.”_ - John Carmack
 
-I am a software engineer specializing in architecting and delivering robust, secure, and observable microservice-based solutions. I am passionate about AI🧠 and software design🧑‍💻. I love throwing myself into new environments and challenging myself to learn, adapt and grow🪴. I believe collaboration🤝 is key, and I thrive in cross-functional team environments.
+I'm an experienced software engineer based out of Manchester, UK. I have extensive experience implementing regulatory-driven solutions in Banking and FinTech, including card payments, transfers, onboarding, KYC, and core banking integrations. I am passionate about AI🧠 and software design🧑‍💻. I love throwing myself into new environments and challenging myself to learn, adapt and grow🪴. I thrive in cross-functional global team environments, having worked in collaboration with product, design, engineering, devOps, and QA teams.
 
 Currently, I'm pursuing a Masters degree🎓 in Artificial Intelligence at the University of Manchester. My secret mission? To create mind-blowing AI applications that'll make you question reality (in a good way, I promise!).
 

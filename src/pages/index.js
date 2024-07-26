@@ -3,7 +3,7 @@ import {
   AboutSection,
   // ArticlesSection,
   ContactSection,
-  HeroSection,
+  // HeroSection,
   Section,
   InterestsSection,
   Page,
@@ -13,13 +13,14 @@ import {
 
 import EducationSection from "./education.js";
 import ExperienceSection from "./experience.js";
+import Hero from "./hero.js";
 
 export default function IndexPage() {
   return (
     <>
       <Seo title="Clint Johnson's Online Portfolio" />
       <Page useSplashScreenAnimation>
-        <HeroSection sectionId="hero" />
+        <Hero sectionId="hero" />
         <InterestsSection sectionId="skills" heading="🔨 I build with" />
         <ExperienceSection sectionId="experience" heading="💼 Experience" />
         <EducationSection sectionId="education" heading="🎓 Education" />

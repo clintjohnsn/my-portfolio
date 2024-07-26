@@ -1,5 +1,5 @@
 {
-  "intro": "Hi there!",
+  "intro": "  Hi there!",
   "heroPhoto": {
     "src": "../../images/me1.jpg",
     "alt": "My Photo"
@@ -8,7 +8,7 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm Clint Johnson.",
+  "title": " I'm Clint Johnson.",
   "subtitle": {
     "prefix": "I build distributed systems that ",
     "highlight": "scale",
