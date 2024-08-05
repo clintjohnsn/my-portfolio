@@ -8,10 +8,10 @@ const ExperienceSection = (props) => {
       company: "Deloitte",
       position: "Software Engineer III (Tech Lead)",
       description: [
-        "Led a 4-member team in delivering key banking components like onboarding, payments and servicing",
-        "Designed solution architectures in collaboration with product managers and vendors based on requirements",
-        "Developed components to enhance security and observability of microservices",
-        "Performed effort estimation, planning and supported agile ceremonies",
+        "Led a 4-member team in delivering key cloud native banking components like card payments, accounts, onboarding and KYC.",
+        "Designed event-driven solution architectures in collaboration with senior architects, product managers and vendors based on requirements.",
+        "Developed components and internal tools to enhance security and observability of microservices.",
+        "Practiced agile ceremonies like effort estimation, sprint planning and retrospectives.",
       ],
     },
     {
@@ -19,9 +19,9 @@ const ExperienceSection = (props) => {
       company: "Dell Technologies",
       position: "Software Engineer",
       description: [
-        "Created an automation for B2B purchase order monitoring and reconciliation",
-        "Developed and maintained Spring microservices for internal mobile applications",
-        "Wrote test suites, performed code reviews, produced technical documentations",
+        "Saved Dell over 125+ hours in manual labour building automations for B2B purchase order reconciliation.",
+        "Developed Spring RESTful microservices using TDD for internal mobile applications.",
+        "Wrote test suites, performed code reviews, produced technical documentations.",
       ],
     },
   ];

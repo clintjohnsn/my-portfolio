@@ -8,13 +8,6 @@
       }
     },
     {
-      "label": "PyTorch",
-      "image": {
-        "src": "../../images/pytorch-logo.png",
-        "alt": ""
-      }
-    },
-    {
       "label": "Java 17",
       "image": {
         "src": "../../images/java-logo.png",
@@ -47,6 +40,20 @@
       "label": "Docker",
       "image": {
         "src": "../../images/docker-logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "PyTorch",
+      "image": {
+        "src": "../../images/pytorch-logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Terraform",
+      "image": {
+        "src": "../../images/terraform.png",
         "alt": ""
       }
     },
